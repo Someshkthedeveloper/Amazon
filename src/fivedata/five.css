@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    
+.fiveparent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.five_card{
+ width: 20%;
+ /* display: flex; */
+ flex-wrap: wrap;
+ /* padding: 10px; */
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elect_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.offer_but{
+    border-radius: 5px;
+    width: 120%;
+    height: 110%;
+    background-color: rgb(255, 118, 118);
+    border: none;
+}
+.five_parent
+{
+    display: flex;
+  background-color: #ffffff;
+  margin-top: 20px;
+
+}
+.add_but button{
+    width: 40px;
+    height: auto;
+  background-color: #ffffff;
+    border: none;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.but_sub button{
+     width: 40px;
+    height: auto;
+  background-color: #ffffff;
+    border: none;
+    font-size: 60px;
+    margin-top: 100px;
+
+}
