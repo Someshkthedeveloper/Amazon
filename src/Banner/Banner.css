@@ -1,0 +1,95 @@
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Amazon Ember', sans-serif;
+}
+.Banner{
+    padding: 4px;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: black;    
+    color: white;
+}
+.logo{
+width: 9%;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.Banner h4{
+    font-size: 14px;
+}
+.Banner span{
+    font-size: 12px;
+}
+.Banner .input{
+    width: 39%;
+    background-color: #ffce12;
+    border-radius: 3px;
+}
+.Banner input{
+    padding: 1%;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    outline: none;
+}
+.select{
+    width: 10%;
+    height:100%;
+}
+.Banner select{
+    display: block;
+    font-family: 'Amazon Ember', sans-serif;
+    padding: 5px;
+    width: 100%;
+    height: 5vh;
+    font-size: 10px;
+    outline: none;
+    background-color: rgb(237, 214, 214);
+}
+.Banner option{
+    padding: 10px;
+    width: 260px;
+    height: 600px;
+}
+.Banner .text{
+width: 90%;
+}
+.Banner .search{
+    width: 10%;
+}
+.search img{
+    width:60%;
+    margin-left: 10px;    
+}
+.cart span{
+    font-size: 14px;
+}
+.cart img{
+    width: 50%;
+}
+@media screen and (max-width:600px) {
+    .Banner .select{
+        display: none;
+    }
+    .Banner .logo{
+        display: none;
+    }
+    .Banner h4,.Banner span,.lang,.cart{
+        display: none;
+    }
+   .Banner .input{
+        width: 90vw;
+        font-size: 16px;
+    }
+    .Banner input{
+        padding: 0 15px;
+    }
+    .Banner{
+        position: static;
+    }
+} 
