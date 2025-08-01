@@ -1,0 +1,29 @@
+.nav{
+    display: none;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(48, 48, 48);
+color: white;
+transition: .8s all;
+height: 31px;
+}
+.nav p{
+    height: 100%;
+    cursor: pointer;
+}
+.nav p:hover{
+    border: 1px solid white;
+}
+
+@media screen and (max-width:600px){
+    .nav{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .nav p{
+        display: none;
+    }
+
+}
