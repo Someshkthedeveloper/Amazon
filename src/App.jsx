@@ -9,6 +9,10 @@ import Carousel from './Carosel/Carosel.jsx'
 import Card from './card/Listitem.jsx'
 import Scroll from './OfferScroll/Tendinglist.jsx'
 import Five from './fivedata/Fivelist.jsx'
+import F1 from './Card1.jsx'
+import F2 from './Firstcard.jsx'
+import Mobile from './Mobile.jsx'
+import F3 from './Footer.jsx'
 function App() {
   
 
@@ -21,6 +25,10 @@ function App() {
     <Scroll/>
     <Card/>
     <Five/>
+    <F2/>
+    {/* <F1/> */}
+    {/* <Mobile/> */}
+    <F3/>
     </>
   )
 }
