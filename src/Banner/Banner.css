@@ -7,6 +7,7 @@
 .Banner{
     padding: 4px;
     position: sticky;
+    z-index: 2;
     top: 0;
     background-color: black;    
     color: white;

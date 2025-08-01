@@ -6,7 +6,7 @@ import img3 from './assts/cart.png'
 import {data} from './Banner.js'
 const Banner = () => {
     return (
-        <div className='flex Banner' >
+        <div className='flex Banner'id='banner' >
             <div className="logo">
                 <img src={img} alt=""/>
             </div>
