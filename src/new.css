@@ -116,27 +116,32 @@ gap: 70px;
 .hr{
     background-color: rgb(244, 248, 248);
     height: 1px;
-position: relative;
-bottom: 140px;
+
 }
 .footerdown{
     display: flex;
 }
-.national{
-    position: relative;
-    bottom: 80px;
-    left: 1000px;
+.main_footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
+/* .national{ */
+    /* position: relative;
+    bottom: 80px; */
+    /* left: 1000px; */
+/* } */
 .total_but{
     display: flex;
   justify-content: center;  
   gap: 10px; 
+  /* width: 30px; */
 }
 .national button{
     /* background-color:rgba(33, 31, 49, 0.897); */
     /* border: 1px solid white; */
-    width: 130px;
-    height: 40px;
+    width: 100px;
+    height: 35px;
     display: inline-block;
     border: 1px solid #848688;
     border-radius: 3px;
@@ -151,19 +156,21 @@ bottom: 140px;
     height: 20px;
 }
 .but_text p{
-    font-size: 18px;
+    /* font-size: 18px;
     position: relative;
-    bottom: 18px;
+    bottom: 18px; */
     color: white;
+
 }
 .amazon_img{
-    height: 60px;
-    width: 150px;
+   
     /* position: relative; */
     /* right: 200px;
     bottom: 40px; */
     display: flex;
     justify-self:center;
+    margin-top: 10px;
+    margin-right: 150px;
 }
 .footer-main h2{
     font-size: 16px;
@@ -180,15 +187,35 @@ bottom: 140px;
 .footerpage button{
     width: 100px;
 }
-.footer_button_op{
-    width: 100px;
+
+.footer_button_op button{
+    width: 150px;
+    height: 40px;
+    background-color:rgba(33, 31, 49, 0.897);
+    border: 0.8px solid white;
+    color: #ffff;
 }
-.footer_button_op h1{
-    width: 100px;
-    font-size: 16px;
+.op{
+    display: flex;
+background-color:rgba(33, 31, 49, 0.897);
 }
 .main-footer{
     padding-top: 10px;
+}
+.select-foot{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+.select-foot option{
+    color: black;
+}
+.developed{
+    color:white;
+    text-align:  end;
+    width:100%;
+    padding:0 30px ;
 }
 /* .all_language{
     

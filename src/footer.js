@@ -1,0 +1,23 @@
+export const  footer=[
+    {
+        language:"English"
+    },
+    {
+        language:"HI"
+    },
+    {
+        language:"TA"
+    },
+    {
+        language:"TE"
+    },
+    {
+        language:"NK"
+    },
+    {
+        language:"ML"
+    },
+    {
+        language:"BN"
+    },
+]
